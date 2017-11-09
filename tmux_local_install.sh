@@ -7,16 +7,19 @@
 # exit on error
 set -e
 
-TMUX_VERSION=1.8
+TMUX_VERSION=2.6
 
 # create our directories
 mkdir -p $HOME/local $HOME/tmux_tmp
 cd $HOME/tmux_tmp
 
 # download source files for tmux, libevent, and ncurses
-wget -O tmux-${TMUX_VERSION}.tar.gz http://sourceforge.net/projects/tmux/files/tmux/tmux-${TMUX_VERSION}/tmux-${TMUX_VERSION}.tar.gz/download
-wget https://github.com/downloads/libevent/libevent/libevent-2.0.19-stable.tar.gz
-wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+#wget -O tmux-${TMUX_VERSION}.tar.gz http://sourceforge.net/projects/tmux/files/tmux/tmux-${TMUX_VERSION}/tmux-${TMUX_VERSION}.tar.gz/download
+#wget https://github.com/downloads/libevent/libevent/libevent-2.0.19-stable.tar.gz
+#wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+wget https://github.com/tmux/tmux/releases/download/2.6/tmux-2.6.tar.gz
+wget https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz
+wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz
 
 # extract files, configure, and compile
 
