@@ -1,5 +1,5 @@
 # README #
-
+```
 [ec2-user@ip-172-31-38-111 tmux_local_install]$ /home/ec2-user/local/bin/tmux -V
 tmux 2.6
 [ec2-user@ip-172-31-38-111 tmux_local_install]$ ldd /home/ec2-user/local/bin/tmux
@@ -9,7 +9,7 @@ tmux 2.6
         libresolv.so.2 => /lib64/libresolv.so.2 (0x00007f97b7dc1000)
         libc.so.6 => /lib64/libc.so.6 (0x00007f97b79fd000)
         /lib64/ld-linux-x86-64.so.2 (0x0000559a7d2be000)
-
+```
 
 ### What is this repository for? ###
 
