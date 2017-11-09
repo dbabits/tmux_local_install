@@ -1,8 +1,8 @@
 # README #
 ```
-[ec2-user@ip-172-31-38-111 tmux_local_install]$ /home/ec2-user/local/bin/tmux -V
+[tmux_local_install]$ /home/ec2-user/local/bin/tmux -V
 tmux 2.6
-[ec2-user@ip-172-31-38-111 tmux_local_install]$ ldd /home/ec2-user/local/bin/tmux
+[tmux_local_install]$ ldd /home/ec2-user/local/bin/tmux
         linux-vdso.so.1 =>  (0x00007fffa8597000)
         libutil.so.1 => /lib64/libutil.so.1 (0x00007f97b81fd000)
         libtinfo.so.5 => /lib64/libtinfo.so.5 (0x00007f97b7fdc000)
